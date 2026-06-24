@@ -1,0 +1,26 @@
+# Core data science
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+imbalanced-learn>=0.11       # for SMOTE oversampling (class imbalance)
+
+# Tree-based baseline
+xgboost>=2.0
+shap>=0.44                   # SHAP values for mapping rules / explainability
+
+# Deep learning (temporal models)
+torch>=2.1
+torchvision>=0.16
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18                 # interactive plots
+
+# Notebook support
+jupyter>=1.0
+ipykernel>=6.0
+
+# Utilities
+tqdm>=4.66
+joblib>=1.3
